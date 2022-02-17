@@ -1,3 +1,3 @@
 def func 
-    #complete algo from structy      
+    #complete algo from structy       
 end
