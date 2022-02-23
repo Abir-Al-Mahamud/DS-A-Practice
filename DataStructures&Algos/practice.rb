@@ -1,3 +1,3 @@
-def func 
+def func  
     #complete algo from structy               
 end
