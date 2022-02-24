@@ -1,6 +1,17 @@
-def func
-    #complete algo from structy                
-end
+
+    def mergeTwoLists(self, l1, l2):
+        if l1 is None:
+            return l2
+        elsif l2 is None:
+            return l1
+        elsif l1.val < l2.val:
+            l1.next = self.mergeTwoLists(l1.next, l2)
+            return l1
+        else
+            l2.next = self.mergeTwoLists(l1, l2.next)
+            return l2  
+    end             
+
 
 def delete_duplicates(head)
     
@@ -19,3 +30,4 @@ def delete_duplicates(head)
     return head
     
 end
+
