@@ -65,5 +65,5 @@ const anagrams = (s1, s2) => {
 
     return hash1 === hash2
 };
-
+ 
  
