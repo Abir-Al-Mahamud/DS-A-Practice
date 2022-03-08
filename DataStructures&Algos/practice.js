@@ -115,4 +115,4 @@ const sumList = (head) => {
         current = current.next;
     }
     return sum;
-};
+}; 
