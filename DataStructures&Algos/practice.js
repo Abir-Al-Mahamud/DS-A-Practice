@@ -116,4 +116,3 @@ const sumList = (head) => {
     }
     return sum;
 }; 
-    
