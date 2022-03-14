@@ -60,7 +60,7 @@ def race_winner(racer-time)
     end  
 
    if new_arr.all?("dnf")
-       return "There is no winner"  
+       return "There is no winner"   
    elsif new_arr.one?("")
        return `#{racer_time[greatest][:name]} won by no contest`
    else
