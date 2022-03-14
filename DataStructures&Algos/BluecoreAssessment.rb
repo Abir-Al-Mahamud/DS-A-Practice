@@ -56,7 +56,7 @@ def race_winner(racer-time)
             end
             #new_arr = ['05:42:14', '05:12:53', 'dnf']
             
-        end
+        end 
     end  
 
    if new_arr.all?("dnf")
