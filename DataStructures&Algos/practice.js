@@ -222,4 +222,4 @@ const mergeLists = (head1, head2) => {
     if (current2 !== null) tail.next = current2;
 
     return dummyHead.next;
-};  
+};   
